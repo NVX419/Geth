@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaith | Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      direction: rtl;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      opacity: 0.8;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 15px 40px;
+      background: #00ffd5;
+      color: #000;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px #00ffd5;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 70px 25px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 25px;
+      padding: 35px;
+      margin-bottom: 50px;
+      backdrop-filter: blur(12px);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      border-right: 5px solid #00ffd5;
+      padding-right: 15px;
+    }
+
+    ul {
+      line-height: 2;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skills span {
+      background: rgba(255,255,255,0.15);
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- البداية -->
+  <header>
+    <h1>غيث</h1>
+    <p>مبرمج شغوف | طالب | مهتم بالتقنية</p>
+    <a href="#" class="btn">⬇ تحميل السيرة الذاتية</a>
+  </header>
+
+  <section>
+
+    <!-- نبذة موسعة -->
+    <div class="card">
+      <h2>نبذة عني</h2>
+      <p>
+        اسمي غيث، عمري 15 سنة، أدرس في الصف الثالث المتوسط.
+        بدأت رحلتي في عالم البرمجة بدافع الفضول وحب التقنية،
+        ومع الوقت تحولت البرمجة إلى شغف حقيقي أعمل على تطويره بشكل مستمر.
+      </p>
+      <p>
+        أؤمن أن التعلم الذاتي هو مفتاح النجاح، لذلك أحرص على
+        تجربة لغات وتقنيات مختلفة، وبناء مشاريع صغيرة تساعدني
+        على فهم المفاهيم البرمجية بشكل أعمق.
+      </p>
+    </div>
+
+    <!-- التعليم -->
+    <div class="card">
+      <h2>التعليم</h2>
+      <ul>
+        <li>المرحلة المتوسطة – الصف الثالث متوسط</li>
+        <li>تعلم ذاتي في البرمجة وتطوير الويب</li>
+        <li>متابعة دورات ومصادر تعليمية على الإنترنت</li>
+      </ul>
+    </div>
+
+    <!-- المهارات -->
+    <div class="card">
+      <h2>لغات البرمجة والتقنيات</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Lua</span>
+        <span>Python</span>
+        <span>Node.js</span>
+        <span>PHP</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>React</span>
+        <span>Git & GitHub</span>
+        <span>APIs</span>
+      </div>
+    </div>
+
+    <!-- الخبرات -->
+    <div class="card">
+      <h2>الخبرات</h2>
+      <ul>
+        <li>تطوير مواقع ويب بسيطة ومتوسطة</li>
+        <li>برمجة سكربتات بلغة Lua</li>
+        <li>التعامل مع السيرفرات والبوتات</li>
+        <li>تصميم واجهات مستخدم عصرية وسلسة</li>
+      </ul>
+    </div>
+
+    <!-- الأهداف -->
+    <div class="card">
+      <h2>الأهداف والطموحات</h2>
+      <p>
+        أطمح إلى أن أصبح مطور برمجيات محترف،
+        وأن أعمل على مشاريع تقنية تخدم المجتمع،
+        مع الاستمرار في التعلم وتطوير مهاراتي في
+        البرمجة وهندسة البرمجيات.
+      </p>
+    </div>
+
+    <!-- الهوايات -->
+    <div class="card">
+      <h2>الهوايات والاهتمامات</h2>
+      <ul>
+        <li>البرمجة وحل المشكلات</li>
+        <li>التقنية والأمن السيبراني</li>
+        <li>تجربة أدوات وتطبيقات جديدة</li>
+        <li>التعلم الذاتي ومتابعة التطورات التقنية</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Gaith — جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
